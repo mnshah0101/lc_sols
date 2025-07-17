@@ -1,0 +1,131 @@
+{
+  "profile": {
+    "username": "your-username",
+    "startDate": "2024-01-01",
+    "goal": {
+      "problemsPerDay": 2,
+      "totalProblems": 365
+    }
+  },
+  "problems": [
+    {
+      "id": 1,
+      "title": "Two Sum",
+      "difficulty": "Easy",
+      "topic": "Array",
+      "subtopic": "Hash Table",
+      "dateSolved": "2024-01-01",
+      "timeSpent": 30,
+      "attempts": 1,
+      "url": "https://leetcode.com/problems/two-sum/",
+      "notes": "Classic problem using hash map"
+    },
+    {
+      "id": 2,
+      "title": "Add Two Numbers",
+      "difficulty": "Medium",
+      "topic": "Linked List",
+      "subtopic": "Math",
+      "dateSolved": "2024-01-02",
+      "timeSpent": 45,
+      "attempts": 2,
+      "url": "https://leetcode.com/problems/add-two-numbers/",
+      "notes": "Remember to handle carry properly"
+    },
+    {
+      "id": 3,
+      "title": "Fruit Into Baskets",
+      "difficulty": "Medium",
+      "topic": "Array",
+      "subtopic": "Two Pointers",
+      "dateSolved": "2025-07-17",
+      "timeSpent": 45,
+      "attempts": 1,
+      "url": "https://leetcode.com/problems/fruit-into-baskets/",
+      "notes": "Sliding window with at most 2 distinct elements"
+    },
+    {
+      "id": 4,
+      "title": "Max Consecutive Ones III",
+      "difficulty": "Medium",
+      "topic": "Array",
+      "subtopic": "Two Pointers",
+      "dateSolved": "2025-07-17",
+      "timeSpent": 40,
+      "attempts": 1,
+      "url": "https://leetcode.com/problems/max-consecutive-ones-iii/",
+      "notes": "Sliding window with at most k flips"
+    },
+    {
+      "id": 5,
+      "title": "Minimum Number of Taps to Open to Water a Garden",
+      "difficulty": "Hard",
+      "topic": "Array",
+      "subtopic": "Greedy",
+      "dateSolved": "2025-07-17",
+      "timeSpent": 60,
+      "attempts": 2,
+      "url": "https://leetcode.com/problems/minimum-number-of-taps-to-open-to-water-a-garden/",
+      "notes": "Greedy approach with interval coverage"
+    },
+    {
+      "id": 6,
+      "title": "Number of Substrings Containing All Three Characters",
+      "difficulty": "Medium",
+      "topic": "String",
+      "subtopic": "Two Pointers",
+      "dateSolved": "2025-07-17",
+      "timeSpent": 35,
+      "attempts": 1,
+      "url": "https://leetcode.com/problems/number-of-substrings-containing-all-three-characters/",
+      "notes": "Sliding window counting substrings"
+    },
+    {
+      "id": 7,
+      "title": "Shortest Subarray with Sum at Least K",
+      "difficulty": "Hard",
+      "topic": "Array",
+      "subtopic": "Deque",
+      "dateSolved": "2025-07-17",
+      "timeSpent": 50,
+      "attempts": 1,
+      "url": "https://leetcode.com/problems/shortest-subarray-with-sum-at-least-k/",
+      "notes": "Monotonic deque with prefix sums"
+    }
+  ],
+  "topics": [
+    {
+      "name": "Array",
+      "totalProblems": 150,
+      "completedProblems": 48,
+      "priority": "high",
+      "subtopics": [
+        { "name": "Two Pointers", "completed": 15, "total": 25 },
+        { "name": "Sliding Window", "completed": 8, "total": 20 },
+        { "name": "Hash Table", "completed": 15, "total": 30 }
+      ]
+    },
+    {
+      "name": "Dynamic Programming",
+      "totalProblems": 120,
+      "completedProblems": 20,
+      "priority": "medium",
+      "subtopics": [
+        { "name": "1D DP", "completed": 10, "total": 40 },
+        { "name": "2D DP", "completed": 5, "total": 35 },
+        { "name": "Tree DP", "completed": 5, "total": 25 }
+      ]
+    },
+    {
+      "name": "Tree",
+      "totalProblems": 100,
+      "completedProblems": 35,
+      "priority": "high",
+      "subtopics": [
+        { "name": "Binary Tree", "completed": 20, "total": 40 },
+        { "name": "BST", "completed": 10, "total": 30 },
+        { "name": "Trie", "completed": 5, "total": 20 }
+      ]
+    }
+  ]
+}
