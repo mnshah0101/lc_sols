@@ -91,18 +91,149 @@
       "attempts": 1,
       "url": "https://leetcode.com/problems/shortest-subarray-with-sum-at-least-k/",
       "notes": "Monotonic deque with prefix sums"
+    },
+    {
+      "id": 8,
+      "title": "Find Length of Shortest Subarray to be Removed to Make Array Sorted",
+      "difficulty": "Medium",
+      "topic": "Array",
+      "subtopic": "Sliding Window",
+      "dateSolved": "2025-07-18",
+      "timeSpent": 45,
+      "attempts": 1,
+      "url": "https://leetcode.com/problems/find-length-of-shortest-subarray-to-be-removed-to-make-array-sorted/",
+      "notes": "Two pointers approach to find shortest subarray to remove"
+    },
+    {
+      "id": 9,
+      "title": "Minimum Operations to Reduce X to Zero",
+      "difficulty": "Medium",
+      "topic": "Array",
+      "subtopic": "Sliding Window",
+      "dateSolved": "2025-07-18",
+      "timeSpent": 50,
+      "attempts": 2,
+      "url": "https://leetcode.com/problems/minimum-operations-to-reduce-x-to-zero/",
+      "notes": "Convert to maximum subarray problem with target sum"
+    },
+    {
+      "id": 10,
+      "title": "Replace the Substring for Balanced String",
+      "difficulty": "Medium",
+      "topic": "String",
+      "subtopic": "Sliding Window",
+      "dateSolved": "2025-07-18",
+      "timeSpent": 40,
+      "attempts": 1,
+      "url": "https://leetcode.com/problems/replace-the-substring-for-balanced-string/",
+      "notes": "Sliding window to find minimum substring to replace"
+    },
+    {
+      "id": 11,
+      "title": "Subarrays with K Different Integers",
+      "difficulty": "Hard",
+      "topic": "Array",
+      "subtopic": "Sliding Window",
+      "dateSolved": "2025-07-18",
+      "timeSpent": 55,
+      "attempts": 2,
+      "url": "https://leetcode.com/problems/subarrays-with-k-different-integers/",
+      "notes": "Use at most K technique: exactly K = at most K - at most K-1"
+    },
+    {
+      "id": 12,
+      "title": "Insert GCD in Linked List",
+      "difficulty": "Medium",
+      "topic": "Linked List",
+      "subtopic": "Math",
+      "dateSolved": "2025-07-21",
+      "timeSpent": 40,
+      "attempts": 1,
+      "url": "https://leetcode.com/problems/insert-greatest-common-divisors-in-linked-list/",
+      "notes": "Insert GCD between consecutive nodes"
+    },
+    {
+      "id": 13,
+      "title": "Maximum Twin Sum of a Linked List",
+      "difficulty": "Medium",
+      "topic": "Linked List",
+      "subtopic": "Two Pointers",
+      "dateSolved": "2025-07-21",
+      "timeSpent": 35,
+      "attempts": 1,
+      "url": "https://leetcode.com/problems/maximum-twin-sum-of-a-linked-list/",
+      "notes": "Find maximum sum of twin nodes in linked list"
+    },
+    {
+      "id": 14,
+      "title": "Number of Subarrays with Bounded Maximum",
+      "difficulty": "Medium",
+      "topic": "Array",
+      "subtopic": "Prefix Sum",
+      "dateSolved": "2025-07-21",
+      "timeSpent": 45,
+      "attempts": 1,
+      "url": "https://leetcode.com/problems/number-of-subarrays-with-bounded-maximum/",
+      "notes": "Count subarrays with max element in given range"
+    },
+    {
+      "id": 15,
+      "title": "Maximum Sum Subarray",
+      "difficulty": "Medium",
+      "topic": "Array",
+      "subtopic": "Prefix Sum",
+      "dateSolved": "2025-07-21",
+      "timeSpent": 30,
+      "attempts": 1,
+      "url": "https://leetcode.com/problems/maximum-subarray/",
+      "notes": "Kadane's algorithm for maximum subarray sum"
+    },
+    {
+      "id": 16,
+      "title": "Number of Submatrices That Sum to Target",
+      "difficulty": "Hard",
+      "topic": "Array",
+      "subtopic": "Prefix Sum",
+      "dateSolved": "2025-07-21",
+      "timeSpent": 60,
+      "attempts": 2,
+      "url": "https://leetcode.com/problems/number-of-submatrices-that-sum-to-target/",
+      "notes": "2D prefix sum with hash map for counting"
+    },
+    {
+      "id": 17,
+      "title": "Sum of Total Strength of Wizards",
+      "difficulty": "Hard",
+      "topic": "Array",
+      "subtopic": "Prefix Sum",
+      "dateSolved": "2025-07-21",
+      "timeSpent": 75,
+      "attempts": 3,
+      "url": "https://leetcode.com/problems/sum-of-total-strength-of-wizards/",
+      "notes": "Complex prefix sum with monotonic stack"
     }
   ],
   "topics": [
     {
       "name": "Array",
       "totalProblems": 150,
-      "completedProblems": 48,
+      "completedProblems": 56,
       "priority": "high",
       "subtopics": [
         { "name": "Two Pointers", "completed": 15, "total": 25 },
-        { "name": "Sliding Window", "completed": 8, "total": 20 },
-        { "name": "Hash Table", "completed": 15, "total": 30 }
+        { "name": "Sliding Window", "completed": 12, "total": 20 },
+        { "name": "Hash Table", "completed": 15, "total": 30 },
+        { "name": "Prefix Sum", "completed": 4, "total": 15 }
+      ]
+    },
+    {
+      "name": "Linked List",
+      "totalProblems": 50,
+      "completedProblems": 3,
+      "priority": "medium",
+      "subtopics": [
+        { "name": "Two Pointers", "completed": 1, "total": 15 },
+        { "name": "Math", "completed": 2, "total": 20 }
       ]
     },
     {
