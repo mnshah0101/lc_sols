@@ -211,19 +211,81 @@
       "attempts": 3,
       "url": "https://leetcode.com/problems/sum-of-total-strength-of-wizards/",
       "notes": "Complex prefix sum with monotonic stack"
+    },
+    {
+      "id": 18,
+      "title": "Number of Ways to Split Array",
+      "difficulty": "Medium",
+      "topic": "Array",
+      "subtopic": "Prefix Sum",
+      "dateSolved": "2025-07-22",
+      "timeSpent": 35,
+      "attempts": 1,
+      "url": "https://leetcode.com/problems/number-of-ways-to-split-array/",
+      "notes": "Prefix sum to count valid splits"
+    },
+    {
+      "id": 19,
+      "title": "Shifting Letters II",
+      "difficulty": "Medium",
+      "topic": "String",
+      "subtopic": "Prefix Sum",
+      "dateSolved": "2025-07-22",
+      "timeSpent": 40,
+      "attempts": 1,
+      "url": "https://leetcode.com/problems/shifting-letters-ii/",
+      "notes": "Difference array technique with prefix sum"
+    },
+    {
+      "id": 20,
+      "title": "Stamping The Grid",
+      "difficulty": "Hard",
+      "topic": "Array",
+      "subtopic": "Prefix Sum",
+      "dateSolved": "2025-07-22",
+      "timeSpent": 65,
+      "attempts": 2,
+      "url": "https://leetcode.com/problems/stamping-the-grid/",
+      "notes": "2D prefix sum with stamp placement validation"
+    },
+    {
+      "id": 21,
+      "title": "Circular Array Loop",
+      "difficulty": "Medium",
+      "topic": "Array",
+      "subtopic": "Two Pointers",
+      "dateSolved": "2025-07-22",
+      "timeSpent": 45,
+      "attempts": 1,
+      "url": "https://leetcode.com/problems/circular-array-loop/",
+      "notes": "Floyd's cycle detection in circular array"
+    },
+    {
+      "id": 22,
+      "title": "Maximum Number of Visible Points",
+      "difficulty": "Hard",
+      "topic": "Math",
+      "subtopic": "Two Pointers",
+      "dateSolved": "2025-07-22",
+      "timeSpent": 55,
+      "attempts": 2,
+      "url": "https://leetcode.com/problems/maximum-number-of-visible-points/",
+      "notes": "Polar coordinates with sliding window on angles"
     }
   ],
   "topics": [
     {
       "name": "Array",
       "totalProblems": 150,
-      "completedProblems": 56,
+      "completedProblems": 15,
       "priority": "high",
       "subtopics": [
-        { "name": "Two Pointers", "completed": 15, "total": 25 },
-        { "name": "Sliding Window", "completed": 12, "total": 20 },
-        { "name": "Hash Table", "completed": 15, "total": 30 },
-        { "name": "Prefix Sum", "completed": 4, "total": 15 }
+        { "name": "Two Pointers", "completed": 3, "total": 25 },
+        { "name": "Sliding Window", "completed": 3, "total": 20 },
+        { "name": "Hash Table", "completed": 1, "total": 30 },
+        { "name": "Prefix Sum", "completed": 6, "total": 15 },
+        { "name": "Deque", "completed": 1, "total": 10 },
+        { "name": "Greedy", "completed": 1, "total": 20 }
       ]
     },
     {
@@ -239,23 +301,43 @@
     {
       "name": "Dynamic Programming",
       "totalProblems": 120,
-      "completedProblems": 20,
+      "completedProblems": 0,
       "priority": "medium",
       "subtopics": [
-        { "name": "1D DP", "completed": 10, "total": 40 },
-        { "name": "2D DP", "completed": 5, "total": 35 },
-        { "name": "Tree DP", "completed": 5, "total": 25 }
+        { "name": "1D DP", "completed": 0, "total": 40 },
+        { "name": "2D DP", "completed": 0, "total": 35 },
+        { "name": "Tree DP", "completed": 0, "total": 25 }
+      ]
+    },
+    {
+      "name": "String",
+      "totalProblems": 80,
+      "completedProblems": 3,
+      "priority": "medium",
+      "subtopics": [
+        { "name": "Two Pointers", "completed": 1, "total": 25 },
+        { "name": "Prefix Sum", "completed": 1, "total": 15 },
+        { "name": "Sliding Window", "completed": 1, "total": 20 }
+      ]
+    },
+    {
+      "name": "Math",
+      "totalProblems": 70,
+      "completedProblems": 1,
+      "priority": "low",
+      "subtopics": [
+        { "name": "Two Pointers", "completed": 1, "total": 20 }
       ]
     },
     {
       "name": "Tree",
       "totalProblems": 100,
-      "completedProblems": 35,
+      "completedProblems": 0,
       "priority": "high",
       "subtopics": [
-        { "name": "Binary Tree", "completed": 20, "total": 40 },
-        { "name": "BST", "completed": 10, "total": 30 },
-        { "name": "Trie", "completed": 5, "total": 20 }
+        { "name": "Binary Tree", "completed": 0, "total": 40 },
+        { "name": "BST", "completed": 0, "total": 30 },
+        { "name": "Trie", "completed": 0, "total": 20 }
       ]
     }
   ]
